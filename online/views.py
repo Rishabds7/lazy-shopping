@@ -73,6 +73,7 @@ def login(request):
            return render(request, 'login.html')
 
 
+
 def Logout(request):
     logout(request)
     return HttpResponseRedirect((reverse('main')))
